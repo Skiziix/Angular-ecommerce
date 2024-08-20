@@ -1,3 +1,16 @@
 .product-item {
     text-align: center;
 }
+
+.quantity {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+button {
+    border: none;
+    width: 25%;
+    height: 50px;
+    border-radius: 5%;
+}

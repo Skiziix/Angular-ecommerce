@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../../model/product';
+import { NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-product-item',
   standalone: true,
-  imports: [],
+  imports: [NgIf],
   templateUrl: './product-item.component.html',
   styleUrl: './product-item.component.css'
 })
