@@ -1,5 +1,7 @@
 .product-item {
     text-align: center;
+    background-color:darkgrey;
+    padding: 5%;
 }
 
 .quantity {

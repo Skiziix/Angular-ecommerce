@@ -4,5 +4,5 @@ export class Product {
     constructor(public name: String,
                 public price: number,
                 public image: String,
-                public sale: boolean) {}
+                public onSale: boolean) {}
 }
