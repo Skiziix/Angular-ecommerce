@@ -8,6 +8,7 @@ h1 {
     font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
       "Segoe UI Symbol";
+    box-sizing: border-box;
   }
 
   p {
@@ -24,4 +25,11 @@ h1 {
     padding: 1rem;
     box-sizing: inherit;
     position: relative;
+    flex-wrap: wrap;
+  }
+
+  .content {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5%;
   }
