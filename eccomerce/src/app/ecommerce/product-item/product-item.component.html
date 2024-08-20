@@ -1,7 +1,10 @@
 <div *ngIf="product.onSale" class="product-item">
     <div class="name">{{ product.name }}</div>
     <img [src]="product.image">
-    <div class="price">Price: {{ product.price }}</div>
+    <div class="quantity-and-price">
+        <div class="price">Price: {{ product.price }}</div>
+        <div class="quantity">Cart: {{ product.quantity }}</div>
+    </div>
     <div class="quantity">
         <button class="add" (click)="increaseQuantity()">+</button>
         <button class="remove" (click)="decreaseQuantity()">-</button>

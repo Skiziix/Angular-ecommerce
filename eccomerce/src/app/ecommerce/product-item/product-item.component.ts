@@ -21,11 +21,9 @@ export class ProductItemComponent implements OnInit {
 
     increaseQuantity() {
         ++this.product.quantity;
-        console.log(this.product.quantity);
     }
 
     decreaseQuantity() {
         this.product.quantity ? --this.product.quantity : null;
-        console.log(this.product.quantity);
     }
 }
