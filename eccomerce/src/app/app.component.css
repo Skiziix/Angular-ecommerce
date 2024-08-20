@@ -33,3 +33,8 @@ h1 {
     text-align: center;
     padding-bottom: 5%;
   }
+
+  app-product-item {
+    display: flex;
+    justify-content: center;
+  }

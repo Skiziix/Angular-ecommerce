@@ -1,7 +1,21 @@
 .product-item {
     text-align: center;
     background-color:darkgrey;
+    border-radius: 2%;
     padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 25%;
+}
+
+.product-item > * {
+    width: 100%;
+}
+
+img {
+    display: block;
+    
 }
 
 .quantity {
@@ -13,6 +27,6 @@
 button {
     border: none;
     width: 25%;
-    height: 50px;
+    height: 15%x;
     border-radius: 5%;
 }
