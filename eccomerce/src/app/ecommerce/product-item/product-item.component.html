@@ -3,7 +3,7 @@
     <img [src]="product.image">
     <div class="price">Price: {{ product.price }}</div>
     <div class="quantity">
-        <button class="add">+</button>
-        <button class="remove">-</button>
+        <button class="add" (click)="increaseQuantity()">+</button>
+        <button class="remove" (click)="decreaseQuantity()">-</button>
     </div>
 </div>

@@ -18,4 +18,14 @@ export class ProductItemComponent implements OnInit {
         this.product = new Product('The Bonny Lane Club', 5.25,
                                    "assets/images/bonny-lane-club-book.jpg", true);
     }
+
+    increaseQuantity() {
+        ++this.product.quantity;
+        console.log(this.product.quantity);
+    }
+
+    decreaseQuantity() {
+        this.product.quantity ? --this.product.quantity : null;
+        console.log(this.product.quantity);
+    }
 }
