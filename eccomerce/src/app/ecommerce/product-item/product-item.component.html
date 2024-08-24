@@ -7,6 +7,6 @@
     </div>
     <div class="quantity">
         <button class="add" (click)="increaseQuantity()">+</button>
-        <button class="remove" (click)="decreaseQuantity()">-</button>
+        <button class="remove" (click)="decreaseQuantity()" [disabled]="decreaseEnabled()">-</button>
     </div>
 </div>

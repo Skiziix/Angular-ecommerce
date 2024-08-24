@@ -26,4 +26,8 @@ export class ProductItemComponent implements OnInit {
     decreaseQuantity() {
         this.product.quantity ? --this.product.quantity : null;
     }
+
+    decreaseEnabled(): boolean {
+        return this.product.quantity === 0;
+    }
 }
